@@ -26,7 +26,7 @@ Bricolage Grotesque (Google Fonts, `opsz 12..96`, `wght 300..700`), one family t
 - Prices use `tabular-nums lining-nums`.
 
 ## Shape and material
-- Paper sheets: radius 3px, rotated -5 to +4 degrees, shadow `0 8px 20px -12px rgb(60 0 25 / .5)`. The hero headline sits on one blush sheet at -1.5deg.
+- Paper sheets: radius 3px, rotated -5 to +4 degrees, shadow `0 8px 20px -12px rgb(60 0 25 / .5)`. Used only in the hero (behind the video, and under the headline at -1.5deg). The gallery grid is too tight for sheets; they read as slivers there.
 - Photos and cards: radius 14px (`--radius`).
 - Controls: pills (999px) for buttons and the segmented switch; 12px radius for inputs and option cards. Inputs are 16px text so iOS doesn't zoom.
 
