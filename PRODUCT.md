@@ -12,7 +12,7 @@ Phone call or text first. Online payment wanted; Stripe Payment Links go in `PAY
 
 ## Brand
 Client brief: minimalist, clean, easy to navigate. Both paths (subscribe / plan an event) have equal weight.
-Accent: bougainvillea (#a8245c), used only for actions. Wordmark set in Italiana, everything else in Hanken Grotesk.
+v1 (index.html): bougainvillea #a8245c accent, Italiana wordmark, Hanken Grotesk. v3: see DESIGN.md.
 
 ## Stock stand-ins (replace before launch)
 Everything in `assets/stock/` is free Pexels media standing in for the client's shoot. Showing it as her work at launch would mislead customers.
@@ -24,9 +24,14 @@ Everything in `assets/stock/` is free Pexels media standing in for the client's 
 ## Two versions for the client to choose
 - index.html: light, minimal (matches the client's "minimalist, clean" brief)
 - dark.html: dark editorial, modeled on the look of floria-landing-page.vercel.app
+- v3.html: built with the Impeccable skill; magenta/leaf-green "tissue wrap" world with an order builder that writes the order text. Design system in DESIGN.md.
 
 ## Pending from client
 - Photo shoot (swap the files in `assets/stock/` for her own and update the paths)
 - Bio / About section
 - Email address, logo
 - Stripe account for online payment
+
+## Copy rules
+- Don't promise online payment until Stripe links exist (the builder says "we'll reply to confirm the details and how to pay").
+- Don't claim same-day delivery or specific event types (weddings, corporate) until the client confirms them.
