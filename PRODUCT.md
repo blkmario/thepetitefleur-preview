@@ -11,6 +11,7 @@ Miami florist. "Curated Florals, Beautifully Delivered." Instagram: @thepetitefl
 Phone call or text first. Online payment wanted; Stripe Payment Links go in `PAY_LINKS` in index.html once the client has an account.
 
 ## Brand
+Her own brand assets (Oct 2026): logo (assets/brand/logo-crop.jpg, low-res; ask for a vector/PNG original), arrangement images with PF monogram, original site mock in ivory/blush with serif display and tracked caps. She likes the Botanica layout (giant serif wordmark, single stem through it, warm calm ground).
 Client brief: minimalist, clean, easy to navigate. Both paths (subscribe / plan an event) have equal weight.
 v1 (index.html): bougainvillea #a8245c accent, Italiana wordmark, Hanken Grotesk. v3: see DESIGN.md.
 
@@ -24,7 +25,8 @@ Everything in `assets/stock/` is free Pexels media standing in for the client's 
 ## Two versions for the client to choose
 - index.html: light, minimal (matches the client's "minimalist, clean" brief)
 - dark.html: dark editorial, modeled on the look of floria-landing-page.vercel.app
-- v3.html: built with the Impeccable skill; magenta/leaf-green "tissue wrap" world with an order builder that writes the order text. Design system in DESIGN.md.
+- v4.html (CURRENT FAVORITE): her real brand: logo, her arrangement photos (assets/brand/), Italiana + Jost + Cormorant italic, ivory/greige/blush/rose, Botanica-style hero (giant PETITE FLEUR with her delphinium arrangement rising through it), order builder restyled as an enclosure card.
+- v3.html (rejected: too pink/loud for her taste): built with the Impeccable skill; magenta/leaf-green "tissue wrap" world with an order builder that writes the order text. Design system in DESIGN.md.
 
 ## Pending from client
 - Photo shoot (swap the files in `assets/stock/` for her own and update the paths)
