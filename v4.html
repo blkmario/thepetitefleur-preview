@@ -19,6 +19,8 @@
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h16M14 6l6 6-6 6"/></symbol>
     <symbol id="i-insta" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4A4 4 0 1 1 12.6 8 4 4 0 0 1 16 11.4z"/><path d="M17.5 6.5h.01"/></symbol>
     <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
     <!-- Fleur-de-lis from the logo's divider -->
     <symbol id="fleur" viewBox="0 0 24 28"><path d="M12 1c-2.2 3-3.2 6-3.2 9 0 2.4 1.2 4.2 3.2 5.6 2-1.4 3.2-3.2 3.2-5.6 0-3-1-6-3.2-9Zm-2.6 15.3C7 15.1 6 12.7 6.9 10.6c-2.7-.4-5.2 1.4-5.4 3.9-.2 2.3 1.6 4 3.6 4 1.3 0 2.1-.7 2.4-1.5.6 1 1.8 1.6 3 1.6M14.6 16.3c2.4-1.2 3.4-3.6 2.5-5.7 2.7-.4 5.2 1.4 5.4 3.9.2 2.3-1.6 4-3.6 4-1.3 0-2.1-.7-2.4-1.5-.6 1-1.8 1.6-3 1.6M7.5 19.4h9M12 19.4v7.6M9.6 27h4.8"/></symbol>
@@ -43,13 +45,24 @@
   </header>
 
   <main id="main">
-    <section class="hero" id="top" aria-label="The Petite Fleur">
-      <h1 class="hero-word"><span>Petite</span> <span>Fleur</span></h1>
+    <section class="hero" id="top" aria-labelledby="hero-h">
       <figure class="hero-flower">
-        <img src="assets/brand/arrangement-delphinium.jpg" alt="A tall arrangement of pale blue delphinium, orange calla lilies and cymbidium orchids in a chrome vase" width="1333" height="2000">
+        <img src="assets/brand/arrangement-hydrangea.jpg" alt="Pink hydrangea, peach roses, green anthurium and pink cymbidium orchids cascading from a chrome vase" width="1333" height="2000">
       </figure>
-      <p class="hero-side hero-left">Floral subscriptions<br>&amp; event florals</p>
-      <p class="hero-side hero-right">Miami, Florida<br>Shipped nationwide</p>
+      <div class="hero-copy">
+        <p class="kicker">The</p>
+        <h1 class="hero-word" id="hero-h"><span>Petite</span> <span>Fleur</span></h1>
+        <svg class="fleur" aria-hidden="true"><use href="#fleur"/></svg>
+        <p class="accent">Flowers, beautifully considered. Weekly subscriptions and event florals from Miami.</p>
+        <div class="hero-actions">
+          <a class="btn btn-blush" href="#subscription">Start a subscription <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-line" href="#events">Plan an event</a>
+        </div>
+      </div>
+      <button class="motion-toggle" type="button" aria-label="Pause animation">
+        <svg class="icon i-pause" aria-hidden="true"><use href="#i-pause"/></svg>
+        <svg class="icon i-play" aria-hidden="true"><use href="#i-play"/></svg>
+      </button>
       <div class="hero-paths">
         <a href="#subscription"><span>Subscriptions</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a href="#events"><span>Event florals</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>

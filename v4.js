@@ -107,3 +107,11 @@ document.querySelectorAll('[data-event]').forEach((a) => a.addEventListener('cli
   document.getElementById('k-event').checked = true;
   update();
 }));
+
+// Pause control for the hero's continuous motion.
+const heroEl = document.querySelector('.hero');
+const motionToggle = document.querySelector('.motion-toggle');
+motionToggle.addEventListener('click', () => {
+  const still = heroEl.classList.toggle('is-still');
+  motionToggle.setAttribute('aria-label', still ? 'Play animation' : 'Pause animation');
+});
